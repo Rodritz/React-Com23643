@@ -45,3 +45,4 @@ console.log(calculadora(10,10, dividir));
 
 //callback hell es la anidación de acciones
 //https://keepcoding.io/blog/callback-hell-en-javascript/
+ 
