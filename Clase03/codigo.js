@@ -112,5 +112,3 @@ sumar(10,20);
 
 const saludar = (nombre)=>{console.log("Hola "+ nombre)}
 saludar("pepe")
-
-

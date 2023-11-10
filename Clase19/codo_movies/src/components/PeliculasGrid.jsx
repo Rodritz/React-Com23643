@@ -8,7 +8,7 @@ export const PeliculasGrid = ()=>{
     /* declaro el estado en una const [nombre,funcion] = useState([]) */
     const [peliculas,setPelicula] = useState([])
 
-    /* cuando se cargue/renderice el componente se va a ejecutar la funcion. eso gracias al useEffect */
+    /* cuando se ejecute/renderice el componente se va a ejecutar la funcion. eso gracias al useEffect */
     useEffect(()=>{
         get("/discover/movie").then((data)=>{
             console.log(data);
