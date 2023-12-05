@@ -1,6 +1,5 @@
 import { PeliculasCard } from "./PeliculasCard"
 import "./PeliculasGrid.css"
-/* import peliculas from "../data/peliculas.json" */
 import {get} from "../../utils/httpCliente";
 import { useState, useEffect } from "react";
 

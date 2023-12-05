@@ -9,6 +9,5 @@ export function PeliculasCard({pelicula}){
             <img className="movieImage" src={imgUrl} alt={pelicula.title} />
             <div>{pelicula.title}</div>
         </li>
-
     )
 }
